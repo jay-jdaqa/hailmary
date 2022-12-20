@@ -12,13 +12,13 @@ from googleapiclient.errors import HttpError
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 # The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = '1O7bFJksKacVpoh1n9a0JV5o2x4kPenLh7P38-tFrAPQ'
-SAMPLE_RANGE_NAME = 'Sheet1'
+SAMPLE_SPREADSHEET_ID = 'xx-tFrAPQ'
+SAMPLE_RANGE_NAME = 'xx'
 
 # Create a Reddit instance and authenticate the bot using OAuth2
-reddit = praw.Reddit(client_id='591Pvg2ienKqisU1DPpJlw', client_secret='1224saQLdNsOjQsjZ0CsyHPNw4naWQ',
-                     password='jaybird1905', user_agent='AstroButt',
-                     username='Harper1865!')
+reddit = praw.Reddit(client_id='xx', client_secret='xx',
+                     password='xx', user_agent='AstroButt',
+                     username='xx!')
 
 # Function to append data to a Google Spreadsheet
 
